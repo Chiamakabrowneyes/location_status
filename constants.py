@@ -4,10 +4,12 @@ POLL_INTERVAL = 59
 NOISE_BOUND = 5
 SUMMARY_INTERVAL = 600
 
-SMTP_PASS = "kdehochvxoxsecmg"
-SMTP_USER = "chiamaka@uni.minerva.edu"
-SMTP_PORT = 587
+#update environment variables
 SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
+SMTP_USER = "your_email@gmail.com"
+SMTP_PASS = "your_16_char_app_password"
 
-ALERT_SENDER = "chiamaka@uni.minerva.edu"
-ALERT_RECIPIENT = "coding-challenges+alerts@sprinterhealth.com"
+ALERT_SENDER = "your_email@gmail.com"
+ALERT_RECIPIENT = "recipient_email@example.com"
+
